@@ -603,6 +603,11 @@
             "name": "GetFindGroups",
             "httpMethod": "GET",
             "parameters": {
+		"topic_id": {
+		    "location": "query",
+		    "required": false,
+		    "description": "Comma-delimited list of numeric topic ids"
+		},
                 "zip": {
                     "location": "query",
                     "required": false,
